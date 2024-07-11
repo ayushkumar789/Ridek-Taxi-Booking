@@ -1,0 +1,364 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Ridek || Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+    .added1 {	background-color: #336600;
+	color: #FFFFFF;
+}
+    </style>
+
+	<!-- Syntax Highlighter -->
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;Ridek&rdquo; Documentation by &ldquo;~Ayush, ~Anirudh, ~Uday, ~Uday Sai, ~Prajwal&rdquo; v1.0</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Ridek&rdquo;</h1>
+
+        <div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+			<p class="prepend-top">
+<strong>
+					Created: 26/02/2023<br>
+				By: <a href="http://www.~Ayush, ~Anirudh, ~Uday, ~Uday Sai, ~Prajwal.net">~Ayush, ~Anirudh, ~Uday, ~Uday Sai, ~Prajwal</a><br>
+				<br>
+			    </strong><strong><br>
+		        </strong></p>
+    </div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">As part of this project, we've explored the capabilities of the [Theme Name] theme. This static documentation page demonstrates our understanding of the theme's structure and potential for building a website.</p>
+	</div>
+	  </div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#temp-components">Template Components</a></li>
+		</ol>
+
+		<hr>
+
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>Below is the general HTML structure of the landing page.<br>
+		</p>
+
+	  <h4 id="front-html-structures"><strong>1) index.html File Structure</strong> - <a href="#toc">top</a></h4>
+
+      <p>The code outlines a comprehensive structure for a responsive web page, incorporating essential sections such as headers, navigation links, detailed sections about the company's services, booking forms, app download links, client testimonials, pricing information, and a comprehensive footer with contact details, working hours, and useful links. Each section is carefully structured to provide clear information and interactive elements, enhancing user engagement and usability. The code is annotated with comments for easier understanding and integration into the overall website project. This snippet can be directly inserted into the HTML file, encapsulated within pre tags to preserve formatting in the documentation, making it straightforward for developers to view, copy, and utilize in various parts of the website development.</p>
+
+	  <pre class="brush: html;" id="front-html-structure-pre">
+		&lt;!DOCTYPE html&gt;
+		&lt;html lang="en"&gt;
+		&lt;head&gt;
+			&lt;meta charset="utf-8"&gt;
+			&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+			&lt;meta name="description" content="Ridek Online Taxi Booking  "&gt;
+			&lt;meta name="author" content="~Ayush, ~Anirudh, ~Uday, ~Uday Sai, ~Prajwal"&gt;
+			&lt;title&gt;Ridek - Online Taxi Booking Service  &lt;/title&gt;
+		&lt;/head&gt;
+		&lt;body&gt;
+			&lt;header&gt;
+				&lt;div&gt;
+					&lt;p&gt;Reliable Taxi Service &amp; Transport Solutions!&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;ul&gt;
+						&lt;li&gt;&lt;a href="faqs.html"&gt;Help&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="contact.html"&gt;Support&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="faqs.html"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+					&lt;/ul&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;a href="index.html"&gt;Home&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/header&gt;
+		
+			&lt;section&gt;
+				&lt;h2&gt;About Our Company&lt;/h2&gt;
+				&lt;p&gt;Feel the difference and Relaxation with Ridek Taxi Company!&lt;/p&gt;
+				&lt;p&gt;At Ridek, we're revolutionizing the way you travel. We're a team dedicated to providing safe, reliable, and convenient taxi rides at the tap of a button. With a network of professional drivers and a user-friendly app, we take the stress out of getting around town. Whether you need a quick ride across town or a safe journey home after a night out, we're here to get you there comfortably and efficiently.&lt;/p&gt;
+			&lt;/section&gt;
+		
+			&lt;section&gt;
+				&lt;h2&gt;What We Offer&lt;/h2&gt;
+				&lt;p&gt;Your Ride Starts Here - Ridek Taxi Company&lt;/p&gt;
+				&lt;p&gt;Ridek Taxi Company is your one-stop shop for reliable and convenient transportation. We offer a fleet of clean, well-maintained vehicles to get you where you need to be, 24/7. Whether you're heading across town for a meeting, to the airport for a flight, or out for a night on the town, our professional drivers will ensure a smooth and comfortable journey.&lt;/p&gt;
+			&lt;/section&gt;
+		
+			&lt;section&gt;
+				&lt;h2&gt;Book Your Taxi Ride&lt;/h2&gt;
+				&lt;form&gt;
+					&lt;input type="text" name="full-name" placeholder="Your Name" required&gt;
+					&lt;input type="email" name="email" placeholder="Email" required&gt;
+					&lt;select name="package-type"&gt;
+						&lt;option value="standard"&gt;Standard&lt;/option&gt;
+						&lt;option value="business"&gt;Business&lt;/option&gt;
+						&lt;option value="economy"&gt;Economy&lt;/option&gt;
+						&lt;option value="vip-spacial"&gt;VIP Spacial&lt;/option&gt;
+						&lt;option value="comfort"&gt;Comfort&lt;/option&gt;
+					&lt;/select&gt;
+					&lt;select name="passengers"&gt;
+						&lt;option value="1"&gt;1 Person&lt;/option&gt;
+						&lt;option value="2"&gt;2 Person&lt;/option&gt;
+						&lt;option value="3"&gt;3 Person&lt;/option&gt;
+						&lt;option value="4"&gt;4 Person&lt;/option&gt;
+						&lt;option value="5"&gt;5 Person&lt;/option&gt;
+					&lt;/select&gt;
+					&lt;input type="text" name="start-dest" placeholder="Start Destination" required&gt;
+					&lt;input type="text" name="end-dest" placeholder="End Destination" required&gt;
+					&lt;input type="text" name="ride-date" placeholder="Select Date" required&gt;
+					&lt;input type="text" name="ride-time" placeholder="Select Time" required&gt;
+					&lt;button type="submit"&gt;Book Your Taxi&lt;/button&gt;
+				&lt;/form&gt;
+			&lt;/section&gt;
+		
+			&lt;section&gt;
+				&lt;h2&gt;Download the Ridek Mobile App&lt;/h2&gt;
+				&lt;p&gt;Get the Ridek mobile app and start your journey with ease. Our app simplifies the booking process, provides real-time updates, and offers exclusive deals to users. Download now from Google Play or the App Store to enjoy a seamless taxi booking experience.&lt;/p&gt;
+				&lt;div&gt;
+					&lt;a href="https://play.google.com/store/apps"&gt;
+						&lt;img src="assets/img/google-play.svg" alt="Download from Google Play" width="150" height="50"&gt;
+					&lt;/a&gt;
+					&lt;a href="https://www.apple.com/app-store/"&gt;
+						&lt;img src="assets/img/app-store.svg" alt="Download on the App Store" width="150" height="50"&gt;
+					&lt;/a&gt;
+				&lt;/div&gt;
+			&lt;/section&gt;
+		
+			&lt;section&gt;
+				&lt;h2&gt;Client Testimonials&lt;/h2&gt;
+				&lt;div&gt;
+					&lt;p&gt;"Good to have transportation available in places and times it is otherwise hard to find, but the app has always been a bit difficult to use especially how it works or doesn't with large font phone settings."&lt;/p&gt;
+					&lt;p&gt;Uday Kiran, Frontend Dev&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;p&gt;"Amazing service! The drivers are courteous and the booking process is simple and quick. It’s my go-to service for travel!"&lt;/p&gt;
+					&lt;p&gt;Sarah Connors, Tech Corp&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;p&gt;"I appreciate the cleanliness of the vehicles and the professionalism of the drivers. It makes a big difference in the daily commute."&lt;/p&gt;
+					&lt;p&gt;Michael Ruiz, Business Analyst&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;div&gt;
+					&lt;p&gt;"Their timely service and transparent billing make them one of the best taxi services around. Highly recommend Ridek."&lt;/p&gt;
+					&lt;p&gt;Anna Lee, Designer&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/section&gt;
+		
+			&lt;section&gt;
+				&lt;h2&gt;Pricing&lt;/h2&gt;
+				&lt;p&gt;Choose your taxi and see the rates. We offer competitive pricing and transparent costs.&lt;/p&gt;
+				&lt;ul&gt;
+					&lt;li&gt;Pool(Sharing): RS. 10.50/km&lt;/li&gt;
+					&lt;li&gt;Sedan(1-4 Person(s)): Rs. 15.00/km&lt;/li&gt;
+					&lt;li&gt;SUV (5-7 Persons): Rs. 18.50/km&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/section&gt;
+		
+			&lt;footer&gt;
+				&lt;div&gt;
+					&lt;div&gt;
+						&lt;div&gt;
+							&lt;div&gt;
+		
+								&lt;p&gt;We successfully cope with tasks of varying complexity, provide long-term guarantees
+									and regularly master new technologies.&lt;/p&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;p&gt;Call For Taxi: &lt;a href="tel:9515004433"&gt;+91 9515004433&lt;/a&gt;&lt;/p&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+		
+				&lt;div&gt;
+					&lt;div&gt;
+						&lt;div&gt;
+							&lt;div&gt;
+								&lt;h3&gt;Working Hours&lt;/h3&gt;
+								&lt;ul&gt;
+									&lt;li&gt;Monday - Friday: 9.00am To 8.00pm&lt;/li&gt;
+									&lt;li&gt;Saturday: 10.00am To 7.30pm&lt;/li&gt;
+									&lt;li&gt;Sunday: Close Day!&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;h3&gt;Useful Links&lt;/h3&gt;
+								&lt;ul&gt;
+									&lt;li&gt;&lt;a href="book-taxi.html"&gt;Taxi Booking&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="faqs.html"&gt;Help Center&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="about-us.html"&gt;Privacy and Policy&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="about-company.html"&gt;Terms of Use&lt;/a&gt;&lt;/li&gt;
+									&lt;li&gt;&lt;a href="contact.html"&gt;Contact Us&lt;/a&gt;&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;h3&gt;Head Office&lt;/h3&gt;
+								&lt;ul&gt;
+									&lt;li&gt;Location: Anurag University, Bhagyanagar, Bharat&lt;/li&gt;
+									&lt;li&gt;Join Us: 22eg110b05@anurag.edu.in.com&lt;/li&gt;
+								&lt;/ul&gt;
+							&lt;/div&gt;
+							&lt;div&gt;
+								&lt;h3&gt;Newsletter Signup&lt;/h3&gt;
+								&lt;form&gt;
+									&lt;input type="email" name="email" placeholder="Your Email" required&gt;
+									&lt;button type="submit"&gt;Subscribe Now&lt;/button&gt;
+								&lt;/form&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+		
+				&lt;div&gt;
+					&lt;p&gt;© &lt;span id="currentYear"&gt;&lt;/span&gt; ~Ayush, ~Anirudh, ~Uday, ~Uday Sai, ~Prajwal All Rights Reserved.&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/footer&gt;
+		
+		&lt;/body&gt;
+		&lt;/html&gt;
+		</pre>
+		
+       <hr>
+
+
+		<h3 id="temp-components"><strong>B) Template Components</strong> - <a href="#toc">top</a></h3>
+		<p>The site is made of many sections like header, slider, testimonials, services and more...</p>
+
+<h4 id="slider"><strong>1) Header Section</strong> - <a href="#toc">top</a></h4>
+
+
+<pre class="brush: html;" id="front-html-structure-pre">
+	&lt;header&gt;
+		&lt;div&gt;
+			&lt;p&gt;Reliable Taxi Service &amp; Transport Solutions!&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&lt;ul&gt;
+				&lt;li&gt;&lt;a href="faqs.html"&gt;Help&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="contact.html"&gt;Support&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;a href="faqs.html"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+			&lt;/ul&gt;
+		&lt;/div&gt;
+		&lt;div&gt;
+			&lt;a href="index.html"&gt;Home&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/header&gt;
+	</pre>
+	
+
+
+	  <hr>
+<h4 id="portfolio"><strong>2) About Our Company Section</strong> - <a href="#toc">top</a></h4>
+  <br>
+  <pre class="brush: html;" id="front-html-structure-pre">
+	&lt;section&gt;
+		&lt;h2&gt;About Our Company&lt;/h2&gt;
+		&lt;p&gt;Feel the difference and Relaxation with Ridek Taxi Company!&lt;/p&gt;
+		&lt;p&gt;At Ridek, we're revolutionizing the way you travel. We're a team dedicated to providing safe, reliable, and convenient taxi rides at the tap of a button. With a network of professional drivers and a user-friendly app, we take the stress out of getting around town. Whether you need a quick ride across town or a safe journey home after a night out, we're here to get you there comfortably and efficiently.&lt;/p&gt;
+	&lt;/section&gt;
+	</pre>
+	
+
+<hr>
+
+<h4 id="portfolio"><strong>3) Book Your Taxi Ride Section</strong> - <a href="#toc">top</a></h4>
+  <br>
+  <pre class="brush: html;" id="front-html-structure-pre">
+	&lt;section&gt;
+		&lt;h2&gt;Book Your Taxi Ride&lt;/h2&gt;
+		&lt;form&gt;
+			&lt;input type="text" name="full-name" placeholder="Your Name" required&gt;
+			&lt;input type="email" name="email" placeholder="Email" required&gt;
+			&lt;select name="package-type"&gt;
+				&lt;option value="standard"&gt;Standard&lt;/option&gt;
+				&lt;option value="business"&gt;Business&lt;/option&gt;
+				&lt;option value="economy"&gt;Economy&lt;/option&gt;
+				&lt;option value="vip-spacial"&gt;VIP Spacial&lt;/option&gt;
+				&lt;option value="comfort"&gt;Comfort&lt;/option&gt;
+			&lt;/select&gt;
+			&lt;select name="passengers"&gt;
+				&lt;option value="1"&gt;1 Person&lt;/option&gt;
+				&lt;option value="2"&gt;2 Person&lt;/option&gt;
+				&lt;option value="3"&gt;3 Person&lt;/option&gt;
+				&lt;option value="4"&gt;4 Person&lt;/option&gt;
+				&lt;option value="5"&gt;5 Person&lt;/option&gt;
+			&lt;/select&gt;
+			&lt;input type="text" name="start-dest" placeholder="Start Destination" required&gt;
+			&lt;input type="text" name="end-dest" placeholder="End Destination" required&gt;
+			&lt;input type="text" name="ride-date" placeholder="Select Date" required&gt;
+			&lt;input type="text" name="ride-time" placeholder="Select Time" required&gt;
+			&lt;button type="submit"&gt;Book Your Taxi&lt;/button&gt;
+		&lt;/form&gt;
+	&lt;/section&gt;
+	</pre>
+	
+
+<br>
+
+<hr>
+
+<h4 id="portfolio"><strong>4) Download the Ridek Mobile App Section</strong> - <a href="#toc">top</a></h4>
+  <br>
+  <pre class="brush: html;" id="front-html-structure-pre">
+	&lt;section&gt;
+		&lt;h2&gt;Download the Ridek Mobile App&lt;/h2&gt;
+		&lt;p&gt;Get the Ridek mobile app and start your journey with ease. Our app simplifies the booking process, provides real-time updates, and offers exclusive deals to users. Download now from Google Play or the App Store to enjoy a seamless taxi booking experience.&lt;/p&gt;
+		&lt;div&gt;
+			&lt;a href="https://play.google.com/store/apps"&gt;
+				&lt;img src="assets/img/google-play.svg" alt="Download from Google Play" width="150" height="50"&gt;
+			&lt;/a&gt;
+			&lt;a href="https://www.apple.com/app-store/"&gt;
+				&lt;img src="assets/img/app-store.svg" alt="Download on the App Store" width="150" height="50"&gt;
+			&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/section&gt;
+	</pre>
+	
+
+<br>
+
+<hr>
+
+
+
+<p>&nbsp;</p>
+
+	  
+		<p>This was a detailed explanation of our Website and idea. Thank you for selecting Ridek for your taxi website. We understand the importance of a user-friendly and reliable online booking platform. Should you encounter any questions during the setup process or require assistance with customization options, our knowledgeable support team is readily available to assist you.</p>
+
+	  <p class="append-bottom alt large"><strong>~Ayush, ~Anirudh, ~Uday, ~Uday Sai, ~Prajwal</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+
+		<hr class="space">
+	</div>
+<!-- end div .container -->
+	<script type="text/javascript" src="syntax-highlighter/scripts/shCore.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="syntax-highlighter/scripts/shBrushPhp.js"></script>
+	<script type="text/javascript">
+     SyntaxHighlighter.all()
+</script>
+</body>
+</html>

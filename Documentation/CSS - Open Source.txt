@@ -1,0 +1,20 @@
+bootstrap.min.css:
+This file contains the styles for the Bootstrap framework. Bootstrap is an open-source front-end framework for developing responsive and mobile-first websites.
+
+fontawesome.min.css:
+FontAwesome is a popular icon set and toolkit, providing scalable vector icons that can be customized with CSS. The CSS file likely includes styles for using FontAwesome icons.
+
+jquery.datetimepicker.min.css:
+This CSS file provides styles for the jQuery DateTimePicker plugin, which allows users to select date and time inputs easily.
+
+swiper.min.css:
+Swiper is a touch-enabled, responsive slider library. swiper.min.css contains the default styles for Swiper sliders.
+
+venobox.min.css:
+Venobox is a jQuery modal box plugin for displaying images, videos, galleries, and inline content in a lightbox modal window. venobox.min.css includes styles specific to the Venobox plugin.
+
+animate.min.css:
+Animate.css is a popular library of ready-to-use CSS animations. animate.min.css contains predefined CSS animations that can be easily applied to elements.
+
+line-awesome.min.css:
+Line Awesome is an alternative icon set similar to FontAwesome, offering line-style icons. line-awesome.min.css includes styles for Line Awesome icons.

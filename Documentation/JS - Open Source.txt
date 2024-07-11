@@ -1,0 +1,33 @@
+popper.min.js:
+
+Popper.js is a positioning engine that helps with positioning popovers and tooltips in web applications. It calculates the position of an element relative to another element or the viewport.
+smooth-scroll.js:
+
+This script enhances the user experience by providing smooth scrolling behavior when navigating within a webpage or to specific sections on the page.
+swiper.min.js:
+
+Swiper is a modern touch slider library that allows you to create responsive, touch-enabled sliders and carousels for websites and web applications.
+venobox.min.js:
+
+Venobox is a jQuery modal box plugin used to display images, videos, galleries, and inline content in a responsive lightbox modal window.
+wow.min.js:
+
+WOW.js is a JavaScript library that triggers animations when scrolling. It adds CSS animations to elements as they come into view.
+bootstrap.min.js:
+
+Bootstrap is a popular front-end framework for building responsive and mobile-first websites. bootstrap.min.js includes Bootstrap's JavaScript components and plugins.
+jquery-3.6.0.min.js:
+
+jQuery is a fast, small, and feature-rich JavaScript library. It simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
+jquery.ajaxchimp.min.js:
+
+AjaxChimp is a jQuery plugin for integrating MailChimp email subscription forms into your website via AJAX.
+jquery.datetimepicker.full.js:
+
+jQuery DateTimePicker is a plugin that allows users to select date and time inputs easily in forms.
+jquery.nice-select.min.js:
+
+Nice Select is a lightweight jQuery plugin that transforms standard HTML select elements into customizable dropdowns.
+modernizr-2.8.3-respond-1.4.2.min.js:
+
+Modernizr is a JavaScript library that detects HTML5 and CSS3 features in the user's browser. Respond.js is a polyfill for CSS3 Media Queries, allowing older browsers to support responsive design features.
